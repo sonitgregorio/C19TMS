@@ -5,7 +5,7 @@ header("Location: admin-login.php");
 exit(); }
 include('includes/header.php'); 
 include('includes/navbar.php');
-print_log('Test changes'); 
+//Hello world
 ?>
 <div class="container-fluid">
 <div class="card shadow mb-4">
