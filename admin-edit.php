@@ -4,7 +4,8 @@ if(!isset($_SESSION["email"])){
 header("Location: admin-login.php");
 exit(); }
 include('includes/header.php'); 
-include('includes/navbar.php'); 
+include('includes/navbar.php');
+print_log('Test changes'); 
 ?>
 <div class="container-fluid">
 <div class="card shadow mb-4">
